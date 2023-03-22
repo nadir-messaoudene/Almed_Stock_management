@@ -1,0 +1,4 @@
+E:\Almed Projects\Almed Projects\AlmedStockManager\DA\obj\Debug\DA.csprojAssemblyReference.cache
+E:\Almed Projects\Almed Projects\AlmedStockManager\DA\obj\Debug\DA.Properties.Resources.resources
+E:\Almed Projects\Almed Projects\AlmedStockManager\DA\obj\Debug\DA.csproj.GenerateResource.cache
+E:\Almed Projects\Almed Projects\AlmedStockManager\DA\obj\Debug\DA.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+E:\Almed Projects\Almed Projects\AlmedStockManager\DC\bin\Debug\DC.dll
+E:\Almed Projects\Almed Projects\AlmedStockManager\DC\bin\Debug\DC.pdb
+E:\Almed Projects\Almed Projects\AlmedStockManager\DC\obj\Debug\DC.csprojAssemblyReference.cache
+E:\Almed Projects\Almed Projects\AlmedStockManager\DC\obj\Debug\DC.csproj.CoreCompileInputs.cache
+E:\Almed Projects\Almed Projects\AlmedStockManager\DC\obj\Debug\DC.dll
+E:\Almed Projects\Almed Projects\AlmedStockManager\DC\obj\Debug\DC.pdb

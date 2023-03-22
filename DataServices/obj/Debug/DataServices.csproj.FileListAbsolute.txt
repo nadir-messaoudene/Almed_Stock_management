@@ -1,0 +1,2 @@
+E:\Almed Projects\Almed Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.csprojAssemblyReference.cache
+E:\Almed Projects\Almed Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.csproj.CoreCompileInputs.cache
