@@ -1,0 +1,1 @@
+﻿Xcopy  D:\Data \\192.168.1.6\Volume_1\Buckup  /M /E /G /H /Y

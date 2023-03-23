@@ -1,2 +1,298 @@
-E:\Almed Projects\Almed Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.csprojAssemblyReference.cache
-E:\Almed Projects\Almed Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.csproj.CoreCompileInputs.cache
+C:\Users\nadir\Source\Repos\extraction\AlmedFramework\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\extraction\AlmedFramework\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\extraction\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\extraction\AlmedFramework\obj\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\extraction\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\bin\Debug\log4net.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\bin\Debug\log4net.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\AlmedFramework\bin\Debug\log4net.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\log4net.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\QRCoder.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\itextsharp.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Printing.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraReports.v14.1.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Data.v14.1.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Office.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraCharts.v14.1.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Charts.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.PivotGrid.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Sparkline.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.RichEdit.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraGauges.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Printing.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraReports.v14.1.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Data.v14.1.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Office.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraCharts.v14.1.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.PivotGrid.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.Sparkline.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.RichEdit.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraGauges.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DC.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Printing.v14.1.Core.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraReports.v14.1.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\itextsharp.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\log4net.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\QRCoder.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Data.v14.1.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Office.v14.1.Core.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraCharts.v14.1.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Charts.v14.1.Core.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.PivotGrid.v14.1.Core.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Sparkline.v14.1.Core.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.RichEdit.v14.1.Core.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraGauges.v14.1.Core.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DC.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Printing.v14.1.Core.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraReports.v14.1.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Data.v14.1.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Office.v14.1.Core.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraCharts.v14.1.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.PivotGrid.v14.1.Core.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.Sparkline.v14.1.Core.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.RichEdit.v14.1.Core.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraGauges.v14.1.Core.xml
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Printing.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Printing.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Printing.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Printing.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraReports.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraReports.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraReports.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraReports.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Data.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Data.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Data.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Data.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Office.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Office.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Office.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Office.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraCharts.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraCharts.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraCharts.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraCharts.v14.1.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.dll
+F:\00-Projects\save 2016-06-06\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\itextsharp.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\log4net.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\QRCoder.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.Data.v14.1.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.Office.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraCharts.v14.1.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.Charts.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.PivotGrid.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.Sparkline.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.RichEdit.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraGauges.v14.1.Core.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.Printing.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraReports.v14.1.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.Data.v14.1.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.Office.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraCharts.v14.1.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.PivotGrid.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.Sparkline.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.RichEdit.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DevExpress.XtraGauges.v14.1.Core.xml
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Printing.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraReports.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Data.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Data.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Data.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Data.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Office.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraCharts.v14.1.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.PivotGrid.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.Sparkline.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.RichEdit.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\de\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\es\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ja\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\bin\Debug\ru\DevExpress.XtraGauges.v14.1.Core.resources.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\bin\Debug\itextsharp.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\bin\Debug\log4net.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\bin\Debug\QRCoder.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DC.pdb
+G:\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+G:\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.dll
+G:\Stockmanager\PdfToText\AlmedFramework\bin\Debug\AlmedFramework.pdb
+G:\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DC.dll
+G:\Stockmanager\PdfToText\AlmedFramework\bin\Debug\itextsharp.dll
+G:\Stockmanager\PdfToText\AlmedFramework\bin\Debug\log4net.dll
+G:\Stockmanager\PdfToText\AlmedFramework\bin\Debug\QRCoder.dll
+G:\Stockmanager\PdfToText\AlmedFramework\bin\Debug\DC.pdb
+G:\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+G:\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.dll
+G:\Stockmanager\PdfToText\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\bin\Debug\AlmedFramework.dll
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\bin\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\bin\Debug\itextsharp.dll
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\bin\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\obj\Debug\AlmedFramework.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\obj\Debug\AlmedFramework.dll
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\App.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\log4net.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.exe
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\DA.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.exe.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\DA.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\DA.dll.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\Debug\packages.config
+C:\Users\dell\Desktop\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.dll
+C:\Users\dell\Desktop\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.pdb
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\packages.config
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\App.config
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.dll
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.pdb
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.exe
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\DC.dll
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\log4net.dll
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\DA.dll
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.pdb
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.exe.config
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\DC.pdb
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\DA.pdb
+D:\Projects\AlmedStockManager\AlmedFramework\bin\Debug\DA.dll.config
+D:\Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+D:\Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.dll
+D:\Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\packages.config
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\App.config
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.dll.config
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\AlmedFramework.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.exe
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\DC.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\log4net.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\DA.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\DataServices.exe.config
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\DC.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\DA.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\bin\Debug\DA.dll.config
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.csprojAssemblyReference.cache
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.csproj.CoreCompileInputs.cache
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.csproj.CopyComplete
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\AlmedFramework\obj\Debug\AlmedFramework.pdb

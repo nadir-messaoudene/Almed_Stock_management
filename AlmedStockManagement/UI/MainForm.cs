@@ -1,73 +1,111 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Windows.Forms;
 
 namespace AlmedStockManagement
 {
+
     public partial class MainForm : DevExpress.XtraBars.Ribbon.RibbonForm
     {
+
+        DataServices.Service dataServeces = new DataServices.Service();
+        UILoginForm loginForm = new UILoginForm();
+
         public MainForm()
         {
             InitializeComponent();
         }
 
-        private void livraisonbarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void LivraisonbarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            foreach (Form frm in this.MdiChildren)
+            try
             {
-                if (frm is UILivraison)
+                dataServeces.TestCurrentConnexionString();
+
+                foreach (Form frm in this.MdiChildren)
                 {
-                    if (frm.WindowState == FormWindowState.Minimized)
-                        frm.WindowState = FormWindowState.Maximized;
-                    frm.Focus();
-                    return;
+                    if (frm is UILivraison)
+                    {
+                        if (frm.WindowState == FormWindowState.Minimized)
+                            frm.WindowState = FormWindowState.Maximized;
+                        frm.Focus();
+                        return;
+                    }
                 }
+                UILivraison livraisonForm = new UILivraison();
+                loginForm.Subscribe(livraisonForm);
+                livraisonForm.MdiParent = this;
+                WindowState = FormWindowState.Maximized;
+                livraisonForm.Show();
             }
-            UILivraison livraisonForm = new UILivraison();
-            livraisonForm.MdiParent = this;
-            livraisonForm.WindowState = FormWindowState.Maximized;
-            livraisonForm.Show();
+            catch (Exception ex)
+            {
+                XtraMessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
-        private void receptionbarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void ReceptionbarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            foreach (Form frm in this.MdiChildren)
+            try
             {
-                if (frm is UIReception)
+                dataServeces.TestCurrentConnexionString();
+
+                foreach (Form frm in this.MdiChildren)
                 {
-                    if (frm.WindowState == FormWindowState.Minimized)
-                        frm.WindowState = FormWindowState.Maximized;
-                    frm.Focus();
-                    return;
+                    if (frm is UIReception)
+                    {
+                        if (frm.WindowState == FormWindowState.Minimized)
+                            frm.WindowState = FormWindowState.Maximized;
+                        frm.Focus();
+                        return;
+                    }
                 }
+                UIReception receptionForm = new UIReception();
+                loginForm.Subscribe(receptionForm);
+                receptionForm.MdiParent = this;
+                WindowState = FormWindowState.Maximized;
+                receptionForm.Show();
             }
-            UIReception receptionForm = new UIReception();
-            receptionForm.MdiParent = this;
-            receptionForm.WindowState = FormWindowState.Maximized;
-            receptionForm.Show();
+            catch (Exception ex)
+            {
+                XtraMessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }            
         }
 
-        private void vracbarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void VracbarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            foreach (Form frm in this.MdiChildren)
+            try
             {
-                if (frm is UIVrac)
+                dataServeces.TestCurrentConnexionString();
+                foreach (Form frm in this.MdiChildren)
                 {
-                    if (frm.WindowState == FormWindowState.Minimized)
-                        frm.WindowState = FormWindowState.Maximized;
-                    frm.Focus();
-                    return;
+                    if (frm is UIVrac)
+                    {
+                        if (frm.WindowState == FormWindowState.Minimized)
+                            frm.WindowState = FormWindowState.Maximized;
+                        frm.Focus();
+                        return;
+                    }
                 }
+                UIVrac vracForm = new UIVrac();
+                loginForm.Subscribe(vracForm);
+                vracForm.MdiParent = this;
+                WindowState = FormWindowState.Maximized;
+
+                vracForm.Show();
             }
-            UIVrac receptionForm = new UIVrac();
-            receptionForm.MdiParent = this;
-            receptionForm.WindowState = FormWindowState.Maximized;
-            receptionForm.Show();
+            catch (Exception ex)
+            {
+                XtraMessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
+
+        private void ConnexionBarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) => new UISqlConnexion().ShowDialog();
+
+        private void BarButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) => new UIBackUpAccess().ShowDialog();
+
+        private void BarButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) => loginForm.ShowDialog();
     }
 }

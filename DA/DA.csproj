@@ -30,9 +30,28 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net">
-      <HintPath>..\bin\Debug\log4net.dll</HintPath>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AlmedFramework\Ressources\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,11 +71,12 @@
     <Compile Include="DAO\Article_PDAO.cs" />
     <Compile Include="DAO\BondeLivraisonDAO.cs" />
     <Compile Include="DAO\BondeLivraisonLigneDAO.cs" />
-    <Compile Include="DAO\Items.cs" />
+    <Compile Include="DAO\ItemDAO.cs" />
     <Compile Include="DAO\PieceDiverDAO.cs" />
     <Compile Include="DAO\PieceDiversLigneDAO.cs" />
     <Compile Include="DAO\PieceVenteDAO.cs" />
     <Compile Include="DAO\PieceVenteLigneDAO.cs" />
+    <Compile Include="Util\ConnectionToAccess.cs" />
     <Compile Include="Util\ConnectionToSql.cs" />
     <Compile Include="AbstractsDAO\DAO.cs" />
     <Compile Include="DAO\DAOFactory.cs" />
@@ -72,12 +92,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Util\TestConnexion.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AlmedFramework\AlmedFramework.csproj">
-      <Project>{59F628AB-73D3-45F5-A54B-3A190B148A5D}</Project>
-      <Name>AlmedFramework</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DC\DC.csproj">
       <Project>{6313addf-02f7-4fc5-beea-fa33a93f3d32}</Project>
       <Name>DC</Name>
@@ -85,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="packages.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

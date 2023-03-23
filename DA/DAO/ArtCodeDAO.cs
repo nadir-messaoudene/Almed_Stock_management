@@ -1,4 +1,4 @@
-﻿using AlmedFramework;
+﻿
 using System.Data.SqlClient;
 using DC;
 
@@ -11,8 +11,8 @@ namespace DA
             ArtCode result = new ArtCode();
             try
             {
-                Logger.Log.Info("Start - recording a new artCode");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
 
                 var RequeteArtCode = "SELECT " +
@@ -21,11 +21,10 @@ namespace DA
                   "inner join [ALMED].[dbo].[ARTICLES] b on a.ARTID=b.ARTID " +
                   "where BYG='" + artCode + "'";
 
-                SqlCommand cd = new SqlCommand(RequeteArtCode, connexion);
+                SqlCommand cd = new SqlCommand(RequeteArtCode, SqlConnexion);
 
                 result.artCode = cd.ExecuteReader()[0].ToString();
                 
-                Logger.Log.Info("End - geting artCode");
                 return result;
             }
             catch (SqlException e)
@@ -34,8 +33,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
     }

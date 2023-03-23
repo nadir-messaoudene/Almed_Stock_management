@@ -23,21 +23,63 @@ namespace DA.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=192.168.1.40\\WAVESOFT;Database=almed;User Id=NADIR; Password=NADIR@2017")]
-        public string AlmedDataConnection {
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sqlDataConnection {
             get {
-                return ((string)(this["AlmedDataConnection"]));
+                return ((string)(this["sqlDataConnection"]));
+            }
+            set {
+                this["sqlDataConnection"] = value;
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string AccessConnexionString {
+        public string accessDataConnection {
             get {
-                return ((string)(this["AccessConnexionString"]));
+                return ((string)(this["accessDataConnection"]));
+            }
+            set {
+                this["accessDataConnection"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sqlServerName {
+            get {
+                return ((string)(this["sqlServerName"]));
+            }
+            set {
+                this["sqlServerName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sqlDataBase {
+            get {
+                return ((string)(this["sqlDataBase"]));
+            }
+            set {
+                this["sqlDataBase"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string loginName {
+            get {
+                return ((string)(this["loginName"]));
+            }
+            set {
+                this["loginName"] = value;
             }
         }
     }

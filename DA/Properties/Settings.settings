@@ -2,10 +2,19 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DA.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="AlmedDataConnection" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Server=192.168.1.40\WAVESOFT;Database=almed;User Id=NADIR; Password=NADIR@2017</Value>
+    <Setting Name="sqlDataConnection" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="AccessConnexionString" Type="System.String" Scope="Application">
+    <Setting Name="accessDataConnection" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="sqlServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="sqlDataBase" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="loginName" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

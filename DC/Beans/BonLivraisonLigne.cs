@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace DC
 {
-    [DataContract]
     public class BonLivraisonLigne
     {
         public string PLVDESIGNATION;
@@ -18,15 +17,10 @@ namespace DC
 
         }
         public string id { get; set; }
-        [DataMember()]
         public string Code { get; set; }
-        [DataMember()]
         public string Designation { get; set; }
-        [DataMember()]
         public string NLot { get; set; }
-        [DataMember()]
         public string DatePeremption { get; set; }
-        [DataMember()]
         public int Qte { get; set; }
         public int QteScannee { get; set; }
     }

@@ -1,9 +1,5 @@
-﻿using AlmedFramework;
-using DC;
-using System;
-using System.Collections.Generic;
+﻿using DC;
 using System.Data.SqlClient;
-using System.Windows.Forms;
 
 namespace DA
 {
@@ -14,15 +10,16 @@ namespace DA
 
         }
 
-        public bool update(string id)
+        public bool UpdateLivraison(string id)
         {
             try
             {
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
                 var RequeteUpdateLivre = "UPDATE [dbo].[PIECEVENTES_P] " +
                          "SET [Livre] = 'O' " +
                          "WHERE PCVID=" + id;
-                SqlCommand sqlCommandvalider = new SqlCommand(RequeteUpdateLivre, connexion);
+                SqlCommand sqlCommandvalider = new SqlCommand(RequeteUpdateLivre, SqlConnexion);
                 sqlCommandvalider.ExecuteNonQuery();
                 return true;
             }
@@ -33,8 +30,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
     }

@@ -1,0 +1,11 @@
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\x86\Debug\App.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\x86\Debug\AlmedFramework.dll.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\x86\Debug\AlmedFramework.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\x86\Debug\AlmedFramework.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\x86\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\x86\Debug\log4net.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\bin\x86\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\obj\x86\Debug\AlmedFramework.csprojResolveAssemblyReference.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\obj\x86\Debug\AlmedFramework.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\obj\x86\Debug\AlmedFramework.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\AlmedFramework\obj\x86\Debug\AlmedFramework.pdb

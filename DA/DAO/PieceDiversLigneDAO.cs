@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using DC;
-using AlmedFramework;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 using System;
@@ -14,12 +13,12 @@ namespace DA
             List<PieceDiversLigne> result = new List<PieceDiversLigne>();
             try
             {
-                Logger.Log.Info("Start - get piece divers ligne");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
                 var Requete = "SELECT * FROM PIECEDIVERSLIGNES WHERE ( PCDID ="+ code + ") and ( ARTTYPE = 'N')";
 
-                SqlCommand cd = new SqlCommand(Requete, connexion);
+                SqlCommand cd = new SqlCommand(Requete, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     if (dr.Read())
@@ -31,11 +30,12 @@ namespace DA
                                 PLDDESIGNATION = dr["PLDDESIGNATION"] != DBNull.Value ? dr["PLDDESIGNATION"].ToString() : string.Empty,
                                 PLDNUMLOT = dr["PLDNUMLOT"] != DBNull.Value ? dr["PLDNUMLOT"].ToString() : string.Empty,
                                 ARTID = dr["ARTID"] != DBNull.Value ? dr["ARTID"].ToString() : string.Empty,
+                                LN = dr["ARTID"] != DBNull.Value ? new Article_PDAO().GetCode(dr["ARTID"].ToString()).Code : string.Empty,
+                                PLDFEFOPEREMPTION = dr["PLDFEFOPEREMPTION"] != DBNull.Value ? Convert.ToDateTime(dr["PLDFEFOPEREMPTION"].ToString()).ToShortDateString().ToString() : string.Empty,
                                 Qte = int.Parse((dr["PLDQTEUS"] != DBNull.Value ? dr["PLDQTEUS"].ToString() : string.Empty).Split(new char[] { ',', '\\', '.' })[0])
                             });
                     }
                 }
-                Logger.Log.Info("End - geting piece divers ligne");
                 return result;
             }
             catch (SqlException e)
@@ -45,8 +45,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
     }

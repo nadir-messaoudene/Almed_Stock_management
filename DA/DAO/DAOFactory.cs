@@ -8,6 +8,7 @@ namespace DA
 
         //TODO : Add a data scces method ...
         //...
+
         public override ArtCodeDAO GetArtCodeDAO()
         {
             return new ArtCodeDAO();
@@ -31,6 +32,11 @@ namespace DA
         public override BondeLivraisonDAO GetBonLivraisonDAO()
         {
             return new BondeLivraisonDAO();
+        }
+
+        public override ItemDAO GetItemDAO()
+        {
+            return new ItemDAO();
         }
 
         public override PieceDiverDAO GetPieceDiversDAO()

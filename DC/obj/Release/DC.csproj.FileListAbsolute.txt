@@ -1,0 +1,6 @@
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\bin\Release\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\bin\Release\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\obj\Release\DC.csprojResolveAssemblyReference.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\obj\Release\DC.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\obj\Release\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\obj\Release\DC.pdb

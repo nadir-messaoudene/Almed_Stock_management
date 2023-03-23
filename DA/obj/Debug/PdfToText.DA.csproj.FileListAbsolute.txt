@@ -1,0 +1,12 @@
+C:\Users\nadir\Source\Repos\extraction\DA\bin\Debug\DA.dll.config
+C:\Users\nadir\Source\Repos\extraction\DA\bin\Debug\DA.dll
+C:\Users\nadir\Source\Repos\extraction\DA\bin\Debug\DA.pdb
+C:\Users\nadir\Source\Repos\extraction\DA\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\extraction\DA\bin\Debug\itextsharp.dll
+C:\Users\nadir\Source\Repos\extraction\DA\bin\Debug\SharpZipLib.dll
+C:\Users\nadir\Source\Repos\extraction\DA\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\extraction\DA\obj\Debug\PdfToText.DA.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\extraction\DA\obj\Debug\DA.Properties.Resources.resources
+C:\Users\nadir\Source\Repos\extraction\DA\obj\Debug\PdfToText.DA.csproj.GenerateResource.Cache
+C:\Users\nadir\Source\Repos\extraction\DA\obj\Debug\DA.dll
+C:\Users\nadir\Source\Repos\extraction\DA\obj\Debug\DA.pdb

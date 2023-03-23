@@ -1,7 +1,6 @@
 ﻿using System;
 using DC;
 using System.Collections.Generic;
-using AlmedFramework;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -14,8 +13,8 @@ namespace DA
             List<BonLivraison> result = new List<BonLivraison>();
             try
             {
-                Logger.Log.Info("Start - recording a new RequeteBL");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
                 var RequeteBL = "SELECT a.[PCVID] as PCVID " +
                                 ",a.[PCVNUM] as PCVNUM " +
@@ -27,7 +26,7 @@ namespace DA
                                   "where (a.PINID=42 or a.PINID=66) and c.livre= 'N' " +
                                   "order by DATEUPDATE ";
 
-                SqlCommand cd = new SqlCommand(RequeteBL, connexion);
+                SqlCommand cd = new SqlCommand(RequeteBL, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     while (dr.Read())
@@ -37,12 +36,11 @@ namespace DA
                             {
                                 id = dr["PCVID"] != DBNull.Value ? dr["PCVID"].ToString() : string.Empty,
                                 NBL = dr["PCVNUM"] != DBNull.Value ? dr["PCVNUM"].ToString() : string.Empty,
-                                Date = dr["DATEUPDATE"] != DBNull.Value ? dr["DATEUPDATE"].ToString() : string.Empty,
+                                Date = dr["DATEUPDATE"] != DBNull.Value ? Convert.ToDateTime(dr["DATEUPDATE"].ToString()).ToShortDateString().ToString() : string.Empty,
                                 NomClient = dr["TIRSOCIETE"] != DBNull.Value ? dr["TIRSOCIETE"].ToString() : string.Empty
                             });
                     }
                 }
-                Logger.Log.Info("End - geting RequeteBL");
                 return result;
             }
             catch (SqlException e)
@@ -52,8 +50,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
         public  List<BonLivraison> GetBonDeLivraisonById(string id)
@@ -61,8 +59,8 @@ namespace DA
             List<BonLivraison> result = new List<BonLivraison>();
             try
             {
-                Logger.Log.Info("Start - recording a new RequeteBL");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
                 var RequeteBL = "SELECT a.[PCVID] as PCVID " +
                                 ",a.[PCVNUM] as PCVNUM " +
@@ -75,7 +73,7 @@ namespace DA
                                   "and a.PCVID = " + id +
                                   " order by DATEUPDATE ";
 
-                SqlCommand cd = new SqlCommand(RequeteBL, connexion);
+                SqlCommand cd = new SqlCommand(RequeteBL, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     while (dr.Read())
@@ -85,12 +83,11 @@ namespace DA
                             {
                                 id = dr["PCVID"] != DBNull.Value ? dr["PCVID"].ToString() : string.Empty,
                                 NBL = dr["PCVNUM"] != DBNull.Value ? dr["PCVNUM"].ToString() : string.Empty,
-                                Date = dr["DATEUPDATE"] != DBNull.Value ? dr["DATEUPDATE"].ToString() : string.Empty,
+                                Date = dr["DATEUPDATE"] != DBNull.Value ? Convert.ToDateTime(dr["DATEUPDATE"].ToString()).ToShortDateString().ToString() : string.Empty,
                                 NomClient = dr["TIRSOCIETE"] != DBNull.Value ? dr["TIRSOCIETE"].ToString() : string.Empty
                             });
                     }
                 }
-                Logger.Log.Info("End - geting RequeteBL");
                 return result;
             }
             catch (SqlException e)
@@ -100,17 +97,17 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
-        public List<BonLivraison> getBonReception()
+        public List<BonLivraison> GetBonReception()
         {
             List<BonLivraison> result = new List<BonLivraison>();
             try
             {
-                Logger.Log.Info("Start - recording a new RequeteBR");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
                 var RequeteBR = "SELECT a.[PCAID] " +
                     ",a.[PCANUM] " +
@@ -121,7 +118,7 @@ namespace DA
                     "inner join [almed].[dbo].[PIECEACHATS_P] c on a.PCAID=c.PCAID " +
                     "where pinid=84 and c.recu='N'";
 
-                SqlCommand cd = new SqlCommand(RequeteBR, connexion);
+                SqlCommand cd = new SqlCommand(RequeteBR, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     while (dr.Read())
@@ -131,12 +128,11 @@ namespace DA
                             {
                                 id = dr["PCAID"] != DBNull.Value ? dr["PCAID"].ToString() : string.Empty,
                                 NBL = dr["PCANUM"] != DBNull.Value ? dr["PCANUM"].ToString() : string.Empty,
-                                Date = dr["DATEUPDATE"] != DBNull.Value ? dr["DATEUPDATE"].ToString() : string.Empty,
+                                Date = dr["DATEUPDATE"] != DBNull.Value ? Convert.ToDateTime(dr["DATEUPDATE"].ToString()).ToShortDateString().ToString()  : string.Empty,
                                 NomClient = dr["TIRSOCIETE"] != DBNull.Value ? dr["TIRSOCIETE"].ToString() : string.Empty
                             });
                     }
                 }
-                Logger.Log.Info("End - geting RequeteBR");
                 return result;
             }
             catch (SqlException e)
@@ -146,17 +142,17 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
-        public List<BonLivraison> getBonReceptionById(string id)
+        public List<BonLivraison> GetBonReceptionById(string id)
         {
             List<BonLivraison> result = new List<BonLivraison>();
             try
             {
-                Logger.Log.Info("Start - recording a new RequeteBR");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
                 var RequeteBR = "SELECT a.[PCAID] " +
                     ",a.[PCANUM] " +
@@ -168,7 +164,7 @@ namespace DA
                     "WHERE pinid=84 and c.recu='N' and a.PCAID = " + id ;
 
 
-                SqlCommand cd = new SqlCommand(RequeteBR, connexion);
+                SqlCommand cd = new SqlCommand(RequeteBR, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     while (dr.Read())
@@ -178,12 +174,11 @@ namespace DA
                             {
                                 id = dr["PCAID"] != DBNull.Value ? dr["PCAID"].ToString() : string.Empty,
                                 NBL = dr["PCANUM"] != DBNull.Value ? dr["PCANUM"].ToString() : string.Empty,
-                                Date = dr["DATEUPDATE"] != DBNull.Value ? dr["DATEUPDATE"].ToString() : string.Empty,
+                                Date = dr["DATEUPDATE"] != DBNull.Value ? Convert.ToDateTime(dr["DATEUPDATE"].ToString()).ToShortDateString().ToString() : string.Empty,
                                 NomClient = dr["TIRSOCIETE"] != DBNull.Value ? dr["TIRSOCIETE"].ToString() : string.Empty
                             });
                     }
                 }
-                Logger.Log.Info("End - geting RequeteBR");
                 return result;
             }
             catch (SqlException e)
@@ -193,8 +188,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
         

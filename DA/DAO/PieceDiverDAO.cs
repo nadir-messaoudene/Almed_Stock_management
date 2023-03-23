@@ -1,5 +1,4 @@
-﻿using AlmedFramework;
-using DC;
+﻿using DC;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -9,58 +8,52 @@ namespace DA
 {
     public class PieceDiverDAO : DAO<PieceDivers>
     {
-
-
         public bool PieceAchatRecu(string id)
         {
             try
             {
-                Logger.Log.Info("Start - achat recu piecedivers");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
-                var RequeteUpdateRecu = "UPDATE [dbo].[PIECEACHATS_P] " +
-                              "SET [RECU] = 'O' " +
-                              "WHERE PCAID=" + id;
+                var RequeteUpdateRecu = "UPDATE [dbo].[PIECEACHATS_P] SET [RECU] = 'O' WHERE PCAID=" + id;
 
-                SqlCommand cd = new SqlCommand(RequeteUpdateRecu, connexion);
+                SqlCommand cd = new SqlCommand(RequeteUpdateRecu, SqlConnexion);
                 cd.ExecuteNonQuery();
-                Logger.Log.Info("End - RequeteUpdateRecu piecedivers");
                 return true;
             }
             catch (SqlException e)
             {
-                MessageBox.Show("Update piece de divers -" + e.Message);
+                MessageBox.Show("Update piece divers -" + e.Message);
                 return false;
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
         public bool PieceDiversSolded(string id)
         {
             try
             {
-                Logger.Log.Info("Start - solding piecedivers");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
-                var Requete = "UPDATE PIECEDIVERS SET PCDISSOLDE = 'O' WHERE PCDID = " + id;
+                var Requete = "UPDATE [ALMED].[dbo].[PIECEDIVERS]  SET PCDISSOLDE = 'O' WHERE PCDID = " + id;
 
-                SqlCommand cd = new SqlCommand(Requete, connexion);
+                SqlCommand cd = new SqlCommand(Requete, SqlConnexion);
                 cd.ExecuteNonQuery();
-                Logger.Log.Info("End - solding piecedivers");
                 return true;
             }
             catch (SqlException e)
             {
-                MessageBox.Show("Update piece de divers -" + e.Message);
+                MessageBox.Show("Update piece divers -" + e.Message);
                 return false;
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
         public List<PieceDivers> GetPieceDivres()
@@ -68,12 +61,12 @@ namespace DA
             List<PieceDivers> result = new List<PieceDivers>();
             try
             {
-                Logger.Log.Info("Start - get piece divers");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
-                var Requete = "SELECT * FROM PIECEDIVERS WHERE(PINID = '17') and ( PCDISSOLDE = 'N')";
+                var Requete = "SELECT * FROM [ALMED].[dbo].[PIECEDIVERS] WHERE(PINID = '17') and ( PCDISSOLDE = 'N')";
 
-                SqlCommand cd = new SqlCommand(Requete, connexion);
+                SqlCommand cd = new SqlCommand(Requete, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     while (dr.Read())
@@ -83,11 +76,10 @@ namespace DA
                             {
                                 PCDID = dr["PCDID"] != DBNull.Value ? dr["PCDID"].ToString() : string.Empty,
                                 PCDNUM = dr["PCDNUM"] != DBNull.Value ? dr["PCDNUM"].ToString() : string.Empty,
-                                PCDATECREATED = dr["DATECREATE"] != DBNull.Value ? dr["DATECREATE"].ToString() : string.Empty
+                                PCDATECREATED = dr["DATECREATE"] != DBNull.Value ? Convert.ToDateTime(dr["DATECREATE"].ToString()).ToShortDateString().ToString() : string.Empty
                             });
                     }
                 }
-                Logger.Log.Info("End - geting piece divers");
                 return result;
             }
             catch (SqlException e)
@@ -97,8 +89,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
     }

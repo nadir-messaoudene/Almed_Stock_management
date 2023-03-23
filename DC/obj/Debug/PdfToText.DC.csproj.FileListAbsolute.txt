@@ -1,0 +1,7 @@
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\bin\Debug\itextsharp.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\bin\Debug\SharpZipLib.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\obj\Debug\PdfToText.DC.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\obj\Debug\DC.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\obj\Debug\DC.pdb

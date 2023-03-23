@@ -1,5 +1,4 @@
-﻿using AlmedFramework;
-using DC;
+﻿using DC;
 using System;
 using System.Data.SqlClient;
 using System.Windows.Forms;
@@ -13,14 +12,14 @@ namespace DA
             Articles result = new Articles();
             try
             {
-                Logger.Log.Info("Start - get vrac");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
                 var RequeteArticles = "SELECT *" +
                                      "FROM  [ALMED].[dbo].[ARTICLES] a" +
                                     "WHERE  a.ARTCODE not like '%-N'";
 
-                SqlCommand cd = new SqlCommand(RequeteArticles, connexion);
+                SqlCommand cd = new SqlCommand(RequeteArticles, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     if (dr.Read())
@@ -33,7 +32,6 @@ namespace DA
                             };
                     }
                 }
-                Logger.Log.Info("End - geting vrac");
                 return result;
             }
             catch (SqlException e)
@@ -43,8 +41,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
 
@@ -53,11 +51,11 @@ namespace DA
             Articles result = new Articles();
             try
             {
-                Logger.Log.Info("Start - get vrac");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
                 var RequeteArticles = "SELECT * FROM  ARTICLES WHERE  ARTID = " + code;
-                SqlCommand cd = new SqlCommand(RequeteArticles, connexion);
+                SqlCommand cd = new SqlCommand(RequeteArticles, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     if (dr.Read())
@@ -70,7 +68,6 @@ namespace DA
                             };
                     }
                 }
-                Logger.Log.Info("End - geting ");
                 return result;
             }
             catch (SqlException e)
@@ -80,8 +77,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
     }

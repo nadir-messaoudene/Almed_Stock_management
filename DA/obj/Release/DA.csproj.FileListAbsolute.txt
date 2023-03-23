@@ -1,0 +1,17 @@
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\App.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\packages.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\DA.dll.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\DA.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\DA.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\AlmedFramework.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\log4net.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\AlmedFramework.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\AlmedFramework.dll.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\bin\Release\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\obj\Release\DA.csprojResolveAssemblyReference.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\obj\Release\DA.Properties.Resources.resources
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\obj\Release\DA.csproj.GenerateResource.Cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\obj\Release\DA.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\obj\Release\DA.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DA\obj\Release\DA.pdb

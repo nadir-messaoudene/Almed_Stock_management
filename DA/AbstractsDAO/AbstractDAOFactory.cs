@@ -8,13 +8,15 @@ namespace DA
         {
             if (type.Equals(FactoryType.SQL_DAO_FACTORY))
                 return new DAOFactory();
-
+            if(type.Equals(FactoryType.ACCES_DAO_FACTORY))
+                return new DAOFactory();
 
             //add different type of connection
             //...
 
             return null;
         }
+        public abstract ItemDAO GetItemDAO();
         public abstract BondeLivraisonLigneDAO GetBondeLivraisonLigneDAO();
         public abstract BondeLivraisonDAO GetBonLivraisonDAO();
         public abstract PieceVenteDAO GetPieceVente_PDAO();

@@ -1,5 +1,4 @@
-﻿
-namespace DA
+﻿namespace DA
 {
     public class PieceVenteLigneDAO
     {

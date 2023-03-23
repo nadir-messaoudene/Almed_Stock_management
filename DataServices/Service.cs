@@ -12,20 +12,38 @@ namespace DataServices
         private BondeLivraisonLigneDAO bondeLivraisonLigneDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetBondeLivraisonLigneDAO();
         private BondeLivraisonDAO bonLivraisonDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetBonLivraisonDAO();
         private PieceVenteDAO pieceVente_PDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetPieceVente_PDAO();
-        private ArtCodeDAO ArtCodeDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetArtCodeDAO();
+        private ArtCodeDAO artCodeDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetArtCodeDAO();
         private PieceVenteDAO pieceDeVenteDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetPieceVente_PDAO();
         private Article_PDAO articlePDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetArticle_PDAO();
         private ArticlesDAO articlesDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetArticlesDAO();
         private PieceDiverDAO pieceDiversDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetPieceDiversDAO();
         private PieceDiversLigneDAO pieceDiversLigneDAO = AbstractDAOFactory.GetFactory(FactoryType.SQL_DAO_FACTORY).GetPieceDiversLigne();
 
-        static void Main(string[] args)
+        private ItemDAO itemDAO = AbstractDAOFactory.GetFactory(FactoryType.ACCES_DAO_FACTORY).GetItemDAO();
+
+        public static void Main()
         {
+
+        }
+
+        public string GetLNOxoidByCode(string code)
+        {
+            return itemDAO.GetLNOxoidByCode(code);
+        }
+
+        public Items RecordeItem(Items item)
+        {
+            return itemDAO.RecordItem(item);
+        }
+
+        public string GetQteByIdItemAndIdReception(string idReception, string idItem)
+        {
+            return itemDAO.GetQteByIdItemAndIdReception(idReception, idItem);
         }
 
         public ArtCode GetArtCode(string artCode)
         {
-            return ArtCodeDAO.GetArtCode(artCode);
+            return artCodeDAO.GetArtCode(artCode);
         }
 
         public List<BonLivraison> GetBonDeLivraisonById(string id)
@@ -38,14 +56,19 @@ namespace DataServices
             return bondeLivraisonLigneDAO.GetBonDeLivraisonLigne();
         }
 
+        public string GetCurentLoginname()
+        {
+            return TestConnexion.GetCurentLoginName();
+        }
+
         public List<BonLivraisonLigne> GetBonLivraisonLigneById(string id)
         {
             return bondeLivraisonLigneDAO.GetBonLivraisonLigneById(id);
         }
 
-        public bool UpdateBonLivraisonLigneBy(string bonLigne, string nlot)
+        public bool UpdateBonReceptionLigneBy(string bonLigne, string nlot)
         {
-            return bondeLivraisonLigneDAO.UpdateBonLivraisonLigneBy(bonLigne, nlot);
+            return bondeLivraisonLigneDAO.UpdateBonReceptionLigneBy(bonLigne, nlot);
         }
 
         public List<BonLivraison> GetBonLivraisons()
@@ -53,46 +76,35 @@ namespace DataServices
             return bonLivraisonDAO.GetBonDeLivraison();
         }
 
-        public List<BonLivraison> getBonReception()
+        public List<BonLivraison> GetBonReception()
         {
-            return bonLivraisonDAO.getBonReception();
+            return bonLivraisonDAO.GetBonReception();
         }
 
-        public List<BonLivraison> getBonReceptionById(string id)
+        public List<BonLivraison> GetBonReceptionById(string id)
         {
-            return bonLivraisonDAO.getBonReceptionById(id);
+            return bonLivraisonDAO.GetBonReceptionById(id);
         }
 
-        public List<BonLivraisonLigne> getCode()
+        public List<BonLivraisonLigne> GetCode()
         {
-            return bondeLivraisonLigneDAO.getCode();
-        }
-        [Obsolete("methode depricated, please use GetCodeArticle_P()")]
-        public Article_P GetCode(string code)
-        {
-            return articlePDAO.GetCode(code);
+            return bondeLivraisonLigneDAO.GetCode();
         }
 
-        public List<BonLivraisonLigne> getLBonReception()
+        public List<BonLivraisonLigne> GetLBonReception()
         {
-            return bondeLivraisonLigneDAO.getLBonReception();
+            return bondeLivraisonLigneDAO.GetLBonReception();
         }
 
-        public List<BonLivraisonLigne> getLigneBonReceptionById(string id)
+        public List<BonLivraisonLigne> GetLigneBonReceptionById(string id)
         {
-            return bondeLivraisonLigneDAO.getLigneBonReceptionById(id);
+            return bondeLivraisonLigneDAO.GetLigneBonReceptionById(id);
         }
 
-        public bool update(string id)
+        public bool UpdateLivraison(string id)
         {
-            return pieceDeVenteDAO.update(id);
+            return pieceDeVenteDAO.UpdateLivraison(id);
         }
-
-        public PieceVente_P Update(PieceVente_P pieceVent_P)
-        {
-            throw new NotImplementedException();
-        }
-
         public Article_P GetCodeArticle_P(string code)
         {
             return articlePDAO.GetCode(code);
@@ -128,6 +140,156 @@ namespace DataServices
         }
 
         public bool UpdateBonLivraisonLigneBy(BonLivraisonLigne bonLigne, string nlot)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string SqlTestConnexion(string provider, string serverName, string dataBaseName, string login, string password)
+        {
+            return TestConnexion.TestConnexionString(provider,serverName, dataBaseName, login, password);
+        }
+
+        public string SaveConnexionString(string serverName, string dataBaseName, string login, string password)
+        {
+            return TestConnexion.SaveConnexionString(serverName, dataBaseName, login, password);
+        }
+
+        public string GetCurentSqlServerName()
+        {
+            return TestConnexion.GetCurentSqlServerName();
+        }
+
+        public string GetCurentSqlDataBase()
+        {
+            return TestConnexion.GetCurentSqlDataBase();
+        }
+
+        public void TestCurrentConnexionString()
+        {
+            TestConnexion.TestCurrentConnexionString();
+        }
+
+        List<BonLivraison> IService.GetBonLivraisons()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<BonLivraisonLigne> IService.GetBonDeLivraisonLigne()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<BonLivraisonLigne> IService.getCode()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<BonLivraisonLigne> IService.getLigneBonReceptionById(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<BonLivraisonLigne> IService.getLBonReception()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<BonLivraisonLigne> IService.GetBonLivraisonLigneById(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool IService.UpdateBonLivraisonLigneBy(BonLivraisonLigne bonLigne, string nlot)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<BonLivraison> IService.GetBonDeLivraisonById(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        ArtCode IService.GetArtCode(string artCode)
+        {
+            throw new NotImplementedException();
+        }
+
+        Article_P IService.GetCodeArticle_P(string code)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<BonLivraison> IService.getBonReception()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<BonLivraison> IService.getBonReceptionById(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool IService.UpdateLivraison(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Articles IService.GetArticles()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<PieceDivers> IService.GetPieceDivers()
+        {
+            throw new NotImplementedException();
+        }
+
+        Articles IService.GetCodeArticles(string code)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<PieceDiversLigne> IService.GetPieceDiversLigneByID(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool IService.PieceDiversSolded(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool IService.PieceAchatRecu(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        string IService.SqlTestConnexion(string provider, string serverName, string dataBaseName, string login, string password)
+        {
+            throw new NotImplementedException();
+        }
+
+        string IService.SaveConnexionString(string serverName, string dataBaseName, string login, string password)
+        {
+            throw new NotImplementedException();
+        }
+
+        string IService.GetCurentSqlServerName()
+        {
+            throw new NotImplementedException();
+        }
+
+        string IService.GetCurentSqlDataBase()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IService.TestCurrentConnexionString()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IService.RecordeItem(Items item)
         {
             throw new NotImplementedException();
         }

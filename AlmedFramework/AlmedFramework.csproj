@@ -30,9 +30,28 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net">
-      <HintPath>..\bin\Debug\log4net.dll</HintPath>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Ressources\log4net.dll</HintPath>
     </Reference>
     <Reference Include="QRCoder">
       <HintPath>..\Resources\QRCoder.dll</HintPath>
@@ -49,32 +68,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logger.cs" />
+    <None Include="Ressources\BackUp.bat" />
+    <Compile Include="Utils\Logger.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Utils\AbbottCodeHelper.cs" />
-    <Compile Include="Utils\AbbottHelper-42.cs" />
-    <Compile Include="Utils\AbbottHelper-44.cs" />
-    <Compile Include="Utils\AbbottHelper-45.cs" />
-    <Compile Include="Utils\AbbottHelper.cs" />
-    <Compile Include="Utils\AbstractHelper.cs" />
-    <Compile Include="Utils\CodeHelper.cs" />
-    <Compile Include="Utils\DO\Items.cs" />
-    <Compile Include="Utils\OtherHelper.cs" />
-    <Compile Include="Utils\OxoidHelper.cs" />
-    <Compile Include="Utils\SebiaHelper.cs" />
+    <Compile Include="Utils\QRCodeHelper.Abbott.cs" />
+    <Compile Include="Utils\QRCodeHelper.cs" />
+    <Compile Include="Utils\QRCodeHelper.Oxoid.cs" />
+    <Compile Include="Utils\QRCodeHelper.Sebia.cs" />
     <Compile Include="Utils\Util.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DataServices\DataServices.csproj">
+      <Project>{f82e46d0-1da7-4641-ab5e-7ddfe9c96f3a}</Project>
+      <Name>DataServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DC\DC.csproj">
+      <Project>{6313addf-02f7-4fc5-beea-fa33a93f3d32}</Project>
+      <Name>DC</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

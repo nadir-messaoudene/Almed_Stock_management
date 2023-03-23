@@ -1,0 +1,17 @@
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\App.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\packages.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\DataServices.exe
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\DataServices.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\DA.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\AlmedFramework.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\log4net.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\DA.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\DA.dll.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\AlmedFramework.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\x86\Debug\AlmedFramework.dll.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\obj\x86\Debug\DataServices.csprojResolveAssemblyReference.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\obj\x86\Debug\DataServices.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\obj\x86\Debug\DataServices.exe
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\obj\x86\Debug\DataServices.pdb

@@ -9,11 +9,8 @@ namespace DC
         {
 
         }
-        [DataMember]
         public string PCDNUM { get; set; }
-        [DataMember]
         public string PCVID { get; set; }
-        [DataMember]
         public int QTY { get; set; }
     }
 }

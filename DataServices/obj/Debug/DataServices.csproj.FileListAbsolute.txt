@@ -1,2 +1,121 @@
-E:\Almed Projects\Almed Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.csprojAssemblyReference.cache
-E:\Almed Projects\Almed Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.csproj.CoreCompileInputs.cache
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\DataServices.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\DA.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\log4net.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\DA.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\obj\Debug\DataServices.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\DataServices.exe.config
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\DataServices.exe
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\obj\Debug\DataServices.exe
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\itextsharp.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DataServices\bin\Debug\QRCoder.dll
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\DataServices.exe.config
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\DataServices.exe
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\DataServices.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\DA.dll
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\DC.dll
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\AlmedFramework.dll
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\log4net.dll
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\itextsharp.dll
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\DA.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\DC.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\bin\Debug\AlmedFramework.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\obj\Debug\DataServices.exe
+F:\00-Projects\save 2016-06-06\PdfToText\DataServices\obj\Debug\DataServices.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.exe.config
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.exe
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\DA.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\log4net.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\itextsharp.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\DA.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.exe
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.exe.config
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.exe
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\DA.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\log4net.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\DA.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.exe
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.pdb
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.exe.config
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.exe
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.pdb
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\DA.dll
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\DC.dll
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.dll
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\log4net.dll
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\DA.pdb
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\DC.pdb
+G:\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.pdb
+G:\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+G:\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.exe
+G:\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.pdb
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.exe.config
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.exe
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\DataServices.pdb
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\DA.dll
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\DC.dll
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.dll
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\log4net.dll
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\DA.pdb
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\DA.dll.config
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\DC.pdb
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.pdb
+G:\000-Projects\Stockmanager\PdfToText\DataServices\bin\Debug\AlmedFramework.dll.config
+G:\000-Projects\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+G:\000-Projects\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.csproj.CoreCompileInputs.cache
+G:\000-Projects\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.exe
+G:\000-Projects\Stockmanager\PdfToText\DataServices\obj\Debug\DataServices.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\Debug\packages.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\Debug\DataServices.exe
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\Debug\DataServices.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\Debug\DA.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\Debug\DA.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\Debug\DA.dll.config
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\bin\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\obj\Debug\DataServices.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\obj\Debug\DataServices.exe
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DataServices\obj\Debug\DataServices.pdb
+D:\Projects\AlmedStockManager\DataServices\bin\Debug\packages.config
+D:\Projects\AlmedStockManager\DataServices\bin\Debug\DataServices.exe
+D:\Projects\AlmedStockManager\DataServices\bin\Debug\DataServices.pdb
+D:\Projects\AlmedStockManager\DataServices\bin\Debug\DA.dll
+D:\Projects\AlmedStockManager\DataServices\bin\Debug\DC.dll
+D:\Projects\AlmedStockManager\DataServices\bin\Debug\DA.pdb
+D:\Projects\AlmedStockManager\DataServices\bin\Debug\DA.dll.config
+D:\Projects\AlmedStockManager\DataServices\bin\Debug\DC.pdb
+D:\Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+D:\Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.exe
+D:\Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\bin\Debug\packages.config
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\bin\Debug\DataServices.exe
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\bin\Debug\DataServices.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\bin\Debug\DA.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\bin\Debug\DC.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\bin\Debug\DA.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\bin\Debug\DA.dll.config
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\bin\Debug\DC.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.csprojAssemblyReference.cache
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.csproj.CoreCompileInputs.cache
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.csproj.CopyComplete
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.exe
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DataServices\obj\Debug\DataServices.pdb

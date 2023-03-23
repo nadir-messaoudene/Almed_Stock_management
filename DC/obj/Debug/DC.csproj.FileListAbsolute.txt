@@ -1,6 +1,65 @@
-E:\Almed Projects\Almed Projects\AlmedStockManager\DC\bin\Debug\DC.dll
-E:\Almed Projects\Almed Projects\AlmedStockManager\DC\bin\Debug\DC.pdb
-E:\Almed Projects\Almed Projects\AlmedStockManager\DC\obj\Debug\DC.csprojAssemblyReference.cache
-E:\Almed Projects\Almed Projects\AlmedStockManager\DC\obj\Debug\DC.csproj.CoreCompileInputs.cache
-E:\Almed Projects\Almed Projects\AlmedStockManager\DC\obj\Debug\DC.dll
-E:\Almed Projects\Almed Projects\AlmedStockManager\DC\obj\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\AlmedFramework.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\itextsharp.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\SharpZipLib.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\AlmedFramework.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\obj\Debug\DC.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\obj\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\log4net.dll
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\log4net.pdb
+C:\Users\nadir\Source\Repos\NewRepo\PdfToText\DC\bin\Debug\log4net.xml
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\obj\Debug\DC.dll
+C:\Users\nadir\Source\Repos\extraction\PdfToText\DC\obj\Debug\DC.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\DC\bin\Debug\DC.dll
+F:\00-Projects\save 2016-06-06\PdfToText\DC\bin\Debug\DC.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\DC\obj\Debug\DC.dll
+F:\00-Projects\save 2016-06-06\PdfToText\DC\obj\Debug\DC.pdb
+F:\00-Projects\save 2016-06-06\PdfToText\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DC\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DC\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DC\obj\Debug\DC.dll
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DC\obj\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\Stockmanager\PdfToText\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DC\bin\Debug\DC.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DC\bin\Debug\DC.pdb
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DC\obj\Debug\DC.dll
+C:\Users\nadir\Source\Repos\Repo01\Stockmanager\PdfToText\DC\obj\Debug\DC.pdb
+G:\Stockmanager\PdfToText\DC\bin\Debug\DC.dll
+G:\Stockmanager\PdfToText\DC\bin\Debug\DC.pdb
+G:\Stockmanager\PdfToText\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+G:\Stockmanager\PdfToText\DC\obj\Debug\DC.dll
+G:\Stockmanager\PdfToText\DC\obj\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\DC\bin\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\DC\bin\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\DC\obj\Debug\DC.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\DC\obj\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\TestStockGesion\DC\obj\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\bin\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\bin\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\obj\Debug\DC.csproj.CoreCompileInputs.cache
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\obj\Debug\DC.dll
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\obj\Debug\DC.pdb
+C:\Users\nadir.messaoudene\source\repos\Almed Stock Manager\AlmedStockManager\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\AlmedStockManager\DC\bin\Debug\DC.dll
+C:\Users\dell\Desktop\AlmedStockManager\DC\bin\Debug\DC.pdb
+C:\Users\dell\Desktop\AlmedStockManager\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\AlmedStockManager\DC\obj\Debug\DC.dll
+C:\Users\dell\Desktop\AlmedStockManager\DC\obj\Debug\DC.pdb
+D:\Projects\AlmedStockManager\DC\bin\Debug\DC.dll
+D:\Projects\AlmedStockManager\DC\bin\Debug\DC.pdb
+D:\Projects\AlmedStockManager\DC\obj\Debug\DC.csprojResolveAssemblyReference.cache
+D:\Projects\AlmedStockManager\DC\obj\Debug\DC.dll
+D:\Projects\AlmedStockManager\DC\obj\Debug\DC.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DC\bin\Debug\DC.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DC\bin\Debug\DC.pdb
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DC\obj\Debug\DC.csprojAssemblyReference.cache
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DC\obj\Debug\DC.csproj.CoreCompileInputs.cache
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DC\obj\Debug\DC.dll
+E:\NEW PROJECTS\01-Projects\AlmedStockManager\DC\obj\Debug\DC.pdb

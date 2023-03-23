@@ -1,5 +1,4 @@
-﻿using AlmedFramework;
-using DC;
+﻿using DC;
 using System;
 using System.Data.SqlClient;
 using System.Windows.Forms;
@@ -13,15 +12,13 @@ namespace DA
             Article_P result = new Article_P();
             try
             {
-                Logger.Log.Info("Start - recording a new RequeteBL");
-                connexion.Open();
+                SqlConnexion = ConnectionToSql.GetInstance();
+                SqlConnexion.Open();
 
-                var RequeteArtCode = "SELECT " +
-                                    "ARTCODE  " +
-                                    "FROM [ALMED].[dbo].[ARTICLES_P] a " +
-                                    "inner join [ALMED].[dbo].[ARTICLES] b on a.ARTID=b.ARTID " +
-                                    "where BYG='" + code + "'";
-                SqlCommand cd = new SqlCommand(RequeteArtCode, connexion);
+                var RequeteArtCode = "SELECT [ARTCODE] " +
+                                    "FROM [ALMED].[dbo].[ARTICLES] " +
+                                    "where [ARTID] = '" + code + "'";
+                SqlCommand cd = new SqlCommand(RequeteArtCode, SqlConnexion);
                 using (var dr = cd.ExecuteReader())
                 {
                     if(dr.Read())
@@ -33,7 +30,6 @@ namespace DA
                             };
                     }
                 }
-                Logger.Log.Info("End - geting RequeteBL");
                 return result;
             }
             catch (SqlException e)
@@ -43,8 +39,8 @@ namespace DA
             }
             finally
             {
-                if (connexion.State == System.Data.ConnectionState.Open)
-                    connexion.Close();
+                if (SqlConnexion.State == System.Data.ConnectionState.Open)
+                    SqlConnexion.Close();
             }
         }
     }
